@@ -1,0 +1,164 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+p {
+    text-align: center;
+}
+
+nav {
+    margin: 1.5rem 0px;
+    box-shadow: 0px 5px 4px black;
+}
+
+nav p {
+    font-weight: 600;
+}
+
+#logo_top {
+    height: 5rem;
+    position: relative;
+    align-items: center;
+}
+
+#navbar_links {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#navbar_links:hover {
+    opacity: 50%;
+    transition: all 0.2s;
+}
+
+.carousel {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 3px;
+
+    transition: all 0.5s;
+}
+
+.carousel:hover {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#produtos a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px;
+}
+
+#produtos p {
+    margin: 0px;
+}
+
+#nome_produto {
+    font-weight: 700;
+}
+
+#preco_produto {
+    font-weight: 300;
+}
+
+#produtos button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#produtos button:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+
+    transition: all 0.25s;
+}
+
+#produtos button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#produtos button:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+
+    transition: all 0.25s;
+}
+
+#botao_branco a {
+    text-decoration: none;
+    color: black !important;
+    font-weight: 600;
+}
+
+#botao_branco button {
+    background-color: white;
+}
+
+#botao_branco button:hover {
+    transform: translateY(-2px);
+    transition: all 0.25s;
+}
+
+footer {
+    background: rgb(37, 37, 37);
+    background: linear-gradient(180deg, rgb(37, 37, 37) 0%, rgb(17, 17, 17) 100%);
+
+
+    color: white;
+    font-weight: 300;
+}
+
+footer p,
+a {
+    text-align: start;
+    margin: 0;
+}
+
+footer .input-group {
+    width: 80%;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+}
+
+.breadcrumb-item::before {
+    color: white !important;
+}
+
+div#login {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 1);
+}
+
+#login a {
+    text-decoration: none;
+    color: white;
+}
+
+#login a:hover {
+    color: rgb(189, 189, 189);
+    transition: 0.25s;
+}
